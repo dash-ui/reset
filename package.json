@@ -1,6 +1,6 @@
 {
   "name": "@-ui/reset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/dash-ui/reset#readme",
   "repository": "github:dash-ui/reset",
   "bugs": "https://github.com/dash-ui/reset/issues",
@@ -12,6 +12,7 @@
   ],
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
+  "types": "dist/cjs/index.d.ts",
   "files": [
     "/dist"
   ],
