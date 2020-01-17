@@ -38,8 +38,6 @@ import {reset} from '@-ui/reset'
 styles.global(reset)
 ```
 
-## API
-
 ## LICENSE
 
 MIT
