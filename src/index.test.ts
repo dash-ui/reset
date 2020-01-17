@@ -1,5 +1,7 @@
-const hello = world => `hello ${world}`
+import reset from './index'
 
-test('passes', () => {
-  expect(hello('world')).toMatchSnapshot()
+describe('reset', () => {
+  it('is what it is', () => {
+    expect(reset).toMatchSnapshot()
+  })
 })

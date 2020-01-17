@@ -12,11 +12,11 @@
   <a aria-label="Types" href="https://www.npmjs.com/package/@-ui/reset">
     <img alt="Types" src="https://img.shields.io/npm/types/@-ui/reset?style=for-the-badge&labelColor=24292e">
   </a>
-  <a aria-label="Code coverage report" href="https://codecov.io/gh/dash-ui/-ui">
-    <img alt="Code coverage" src="https://img.shields.io/codecov/c/gh/dash-ui/-ui?style=for-the-badge&labelColor=24292e">
+  <a aria-label="Code coverage report" href="https://codecov.io/gh/dash-ui/reset">
+    <img alt="Code coverage" src="https://img.shields.io/codecov/c/gh/dash-ui/reset?style=for-the-badge&labelColor=24292e">
   </a>
-  <a aria-label="Build status" href="https://travis-ci.org/dash-ui/-ui">
-    <img alt="Build status" src="https://img.shields.io/travis/dash-ui/-ui?style=for-the-badge&labelColor=24292e">
+  <a aria-label="Build status" href="https://travis-ci.org/dash-ui/reset">
+    <img alt="Build status" src="https://img.shields.io/travis/dash-ui/reset?style=for-the-badge&labelColor=24292e">
   </a>
   <a aria-label="NPM version" href="https://www.npmjs.com/package/@-ui/reset">
     <img alt="NPM Version" src="https://img.shields.io/npm/v/@-ui/reset?style=for-the-badge&labelColor=24292e">
@@ -29,12 +29,13 @@
 <pre align="center">npm i @-ui/reset</pre>
 <hr>
 
-
+A modern CSS reset for -ui
 
 ## Quick Start
 
 ```js
-import _ from '@-ui/reset'
+import {reset} from '@-ui/reset'
+styles.global(reset)
 ```
 
 ## API

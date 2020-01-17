@@ -1,13 +1,14 @@
 {
   "name": "@-ui/reset",
   "version": "1.0.0",
-  "homepage": "https://github.com/dash-ui/-ui#readme",
-  "repository": "github:dash-ui/-ui",
-  "bugs": "https://github.com/dash-ui/-ui/issues",
+  "homepage": "https://github.com/dash-ui/reset#readme",
+  "repository": "github:dash-ui/reset",
+  "bugs": "https://github.com/dash-ui/reset/issues",
   "license": "MIT",
   "description": "A modern CSS reset using -ui",
   "keywords": [
-    "reset"
+    "reset css",
+    "reset browser css"
   ],
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
@@ -42,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "@-ui/styles": "^1.0.53",
     "@lunde/babel-preset-es": "latest",
     "@types/jest": "latest",
     "@typescript-eslint/eslint-plugin": "latest",
@@ -53,6 +55,7 @@
     "husky": "latest",
     "jest": "latest",
     "lint-staged": "latest",
+    "minify-css.macro": "^1.0.6",
     "prettier": "latest",
     "rimraf": "^2.6.3",
     "ts-jest": "latest",
