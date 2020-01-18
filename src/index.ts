@@ -82,11 +82,16 @@ export default css`
     font: inherit;
   }
 
-  /* Optimize for legibility for headers, making them more crisp*
-  h1, h2, h3, h4, h5, h6 {
+  /* Optimize for legibility for headers, making them more crisp*/
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     text-rendering: optimizeLegibility;
   }
-    
+
   /* Remove all animations and transitions for people that prefer not to see them */
   @media (prefers-reduced-motion: reduce) {
     * {
