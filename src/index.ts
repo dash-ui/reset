@@ -2,34 +2,25 @@ import css from 'minify-css.macro'
 // Slightly augments the original by Andy Bell
 // https://hankchizljaw.com/wrote/a-modern-css-reset/
 export default css`
-  /* Box sizing rules */
   *,
   *::before,
   *::after {
     box-sizing: border-box;
   }
 
-  /* Don't let words overflow their containers */
   html {
     word-wrap: break-word;
     text-size-adjust: 100%;
   }
 
-  /* Remove default padding */
-  ul[class],
-  ol[class] {
-    padding: 0;
-  }
-
-  /* Remove default margin */
   body,
   h1,
   h2,
   h3,
   h4,
   p,
-  ul[class],
-  ol[class],
+  ul,
+  ol,
   li,
   figure,
   figcaption,
@@ -39,7 +30,6 @@ export default css`
     margin: 0;
   }
 
-  /* Set core body defaults */
   body {
     min-height: 100vh;
     scroll-behavior: smooth;
@@ -47,34 +37,29 @@ export default css`
     line-height: 1.5;
   }
 
-  /* Remove list styles on ul, ol elements with a class attribute */
-  ul[class],
-  ol[class] {
+  ul,
+  ol {
+    padding: 0;
     list-style: none;
   }
 
-  /* Remove default border from nav */
   nav {
     border: 0;
   }
 
-  /* A elements that don't have a class get default styles */
   a:not([class]) {
     text-decoration-skip-ink: auto;
   }
 
-  /* Make images easier to work with */
   img {
     max-width: 100%;
     display: block;
   }
 
-  /* Natural flow and rhythm in articles by default */
   article > * + * {
     margin-top: 1em;
   }
 
-  /* Inherit fonts for inputs and buttons */
   input,
   button,
   textarea,
@@ -82,7 +67,6 @@ export default css`
     font: inherit;
   }
 
-  /* Optimize for legibility for headers, making them more crisp*/
   h1,
   h2,
   h3,
@@ -92,7 +76,6 @@ export default css`
     text-rendering: optimizeLegibility;
   }
 
-  /* Remove all animations and transitions for people that prefer not to see them */
   @media (prefers-reduced-motion: reduce) {
     * {
       animation-duration: 0.01ms !important;
