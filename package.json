@@ -1,6 +1,6 @@
 {
   "name": "@dash-ui/reset",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/dash-ui/reset#readme",
   "repository": "github:dash-ui/reset",
   "bugs": "https://github.com/dash-ui/reset/issues",
@@ -18,7 +18,10 @@
     ".": {
       "browser": "./dist/module/index.js",
       "import": "./dist/esm/index.mjs",
-      "require": "./dist/main/index.js"
+      "require": "./dist/main/index.js",
+      "default": "./dist/main/index.js",
+      "source": "./src/index.ts",
+      "types": "./types/index.d.ts"
     },
     "./package.json": "./package.json",
     "./": "./"
