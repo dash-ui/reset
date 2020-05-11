@@ -8,30 +8,16 @@ export default css`
     box-sizing: border-box;
   }
 
+  * {
+    margin: 0;
+  }
+
   html {
     word-wrap: break-word;
     text-size-adjust: 100%;
   }
 
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  p,
-  ul,
-  ol,
-  li,
-  figure,
-  figcaption,
-  blockquote,
-  dl,
-  dd {
-    margin: 0;
-  }
-
   body {
-    min-height: 100vh;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
@@ -54,10 +40,6 @@ export default css`
   img {
     max-width: 100%;
     display: block;
-  }
-
-  article > * + * {
-    margin-top: 1em;
   }
 
   input,
