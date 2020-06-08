@@ -1,6 +1,6 @@
 {
   "name": "@dash-ui/reset",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/dash-ui/reset#readme",
   "repository": "github:dash-ui/reset",
   "bugs": "https://github.com/dash-ui/reset/issues",
@@ -13,7 +13,7 @@
   ],
   "main": "dist/main/index.js",
   "module": "dist/module/index.js",
-  "unpkg": "dist/umd/reset.js",
+  "unpkg": "dist/umd/dash-reset.js",
   "source": "src/index.ts",
   "types": "types/index.d.ts",
   "exports": {
@@ -21,7 +21,7 @@
       "browser": "./dist/module/index.js",
       "import": "./dist/esm/index.mjs",
       "require": "./dist/main/index.js",
-      "umd": "./dist/umd/reset.js",
+      "umd": "./dist/umd/dash-reset.js",
       "source": "./src/index.ts",
       "types": "./types/index.d.ts",
       "default": "./dist/main/index.js"
