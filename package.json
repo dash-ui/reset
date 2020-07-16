@@ -122,7 +122,7 @@
     "lundle": "^0.4.9",
     "minify-css.macro": "^1.0.6",
     "prettier": "latest",
-    "standard-version": "^8.0.0",
+    "standard-version": "^8.0.2",
     "typescript": "latest"
   },
   "dependencies": {},
