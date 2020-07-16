@@ -36,8 +36,10 @@ A modern CSS reset for [**dash-ui**](https://github.com/dash-ui/styles)
 ## Quick Start
 
 ```js
+import {styles} from '@dash-ui/styles'
 import {reset} from '@dash-ui/reset'
-styles.global(reset)
+
+styles.insertGlobal(reset)
 ```
 
 ## LICENSE
