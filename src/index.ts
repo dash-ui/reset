@@ -44,6 +44,10 @@ export default css`
     font: inherit;
   }
 
+  [hidden] {
+    display: none;
+  }
+
   @media (prefers-reduced-motion: reduce) {
     * {
       animation-duration: 0.01ms !important;
