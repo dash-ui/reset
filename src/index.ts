@@ -19,8 +19,6 @@ export default css`
 
   body {
     scroll-behavior: smooth;
-    text-rendering: optimizeSpeed;
-    line-height: 1.5;
   }
 
   ul,
@@ -33,10 +31,7 @@ export default css`
     border: 0;
   }
 
-  a:not([class]) {
-    text-decoration-skip-ink: auto;
-  }
-
+  video,
   img {
     max-width: 100%;
     display: block;
@@ -47,15 +42,6 @@ export default css`
   textarea,
   select {
     font: inherit;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    text-rendering: optimizeLegibility;
   }
 
   @media (prefers-reduced-motion: reduce) {

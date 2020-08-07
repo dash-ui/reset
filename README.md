@@ -1,7 +1,7 @@
 <hr>
   <br/>
   <img src='https://github.com/dash-ui/styles/raw/master/assets/logo.png'/>
-  <blockquote>A modern CSS reset for <a href="https://github.com/dash-ui/styles">dash-ui</a></blockquote>
+  <blockquote>A simple and modern CSS reset for <a href="https://github.com/dash-ui/styles">dash-ui</a></blockquote>
   <pre>npm i @dash-ui/reset</pre>
   <br/>
 
