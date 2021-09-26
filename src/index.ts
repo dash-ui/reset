@@ -1,4 +1,4 @@
-import css from 'minify-css.macro'
+import css from "minify-css.macro";
 // Slightly augments the original by Andy Bell
 // https://hankchizljaw.com/wrote/a-modern-css-reset/
 export default css`
@@ -56,4 +56,4 @@ export default css`
       scroll-behavior: auto !important;
     }
   }
-`
+`;

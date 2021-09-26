@@ -1,7 +1,7 @@
-import reset from './index'
+import reset from "./index";
 
-describe('reset', () => {
-  it('is what it is', () => {
-    expect(reset).toMatchSnapshot()
-  })
-})
+describe("reset", () => {
+  it("is what it is", () => {
+    expect(reset).toMatchSnapshot();
+  });
+});
